@@ -15,3 +15,16 @@ body{
 	 z-index: -1;
 
  }
+ ul.social li {
+    display:inline;
+	vertical-align: middle;
+}
+
+.footer-icon{
+	 width: 40px;
+	 height: 40px;
+}
+.footer-icon:hover{
+ -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
