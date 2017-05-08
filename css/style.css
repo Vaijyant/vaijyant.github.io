@@ -13,7 +13,7 @@ body {
   width: 100px;
   height: 100px;
   right: 0px;
-  bottom: 60%;
+  top: 100px;
   z-index: -1;
   -ms-transform: rotate(2700deg);
   /* IE 9 */
