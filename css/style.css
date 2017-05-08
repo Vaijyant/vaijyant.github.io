@@ -9,10 +9,17 @@ body {
 }
 
 .peek {
-  position: absolute;
+  position: fixed;
   width: 100px;
   height: 100px;
+  right: 0px;
+  bottom: 60%;
   z-index: -1;
+  -ms-transform: rotate(2700deg);
+  /* IE 9 */
+  -webkit-transform: rotate(270deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(270deg);
 }
 
 blockquote {
