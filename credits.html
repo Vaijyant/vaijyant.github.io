@@ -5,18 +5,31 @@
   <title>Credits</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css" rel="stylesheet">
+  
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <link href="css/style.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <script type="text/javascript">
+        $(document).ready(function(){
+           $(".button-collapse").sideNav();
+           $('.collapsible').collapsible();
+        });
+    </script>
+  
 </head>
 
 <body>
   <header>
     <nav>
       <div class="nav-wrapper blue darken-2">
-        <a href="index.html" class="brand-logo center">Vaijyant Tomar</a>
+        <a href="#" class="brand-logo center">Credits</a>
       </div>
     </nav>
 
@@ -25,6 +38,20 @@
       </div>
     </div>
   </header>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color: red;">menu</i></a>
+    <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+      <div class="background">
+        <img src="img/bg.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="img/profile.jpg"></a>
+      <a href="#!name"><span class="white-text name">Vaijyant Tomar</span></a>
+      <a href="#!email"><span class="white-text email">vaijyant.tomar@gmail.com</span></a>
+    </div></li>
+	<li><a class="waves-effect" href="index.html">Home</a></li>
+    <li><a class="waves-effect " href="">Projects</a></li>
+	<li><a class="waves-effect active" href="credits.html">Credits</a></li>
+    </ul>
   <main>
     <div class="container">
       <div class="row">
