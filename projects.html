@@ -22,6 +22,14 @@
            $('.collapsible').collapsible();
         });
     </script>
+	<style>
+	.top {
+    position: fixed;
+    left:0px;
+    top: 46px;
+    z-index: 997;
+}
+	</style>
   
 </head>
 
@@ -42,7 +50,9 @@
     </div>-->
 
   </header>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="color: red;">menu</i></a>
+  <div class="fixed-action-btn top">
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="small material-icons" style="color: red;">menu</i></a>
+  </div>
     <ul id="slide-out" class="side-nav">
         <li><div class="user-view">
       <div class="background">
