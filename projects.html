@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <script type="text/javascript">
+        $(document).ready(function(){
+           $(".button-collapse").sideNav();
+           $('.collapsible').collapsible();
+        });
+    </script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-103560707-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<style>
+	.top {
+		position: fixed;
+		left:0px;
+		top:60px;
+	}
+	</style>
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper blue darken-2">
+        <a href="projects.html" class="brand-logo center">Projects</a>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col hide-on-small-only s 12 m12 l12 spacer">
+      </div>
+    </div>
+    <!--<div>
+      <img src="img/omnom.gif" class="peek">
+    </div>-->
+
+  </header>
+  <div class="top">
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="small material-icons" style="color: red;">menu</i></a>
+  </div>
+    <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+      <div class="background">
+        <img src="img/bg.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="img/profile.JPG"></a>
+      <a href="#!name"><span class="white-text name">Vaijyant Tomar</span></a>
+      <a href="#!email"><span class="white-text email">vtomar@uncc.edu</span></a>
+    </div></li>
+	<li><a class="waves-effect" href="index.html">Home</a></li>
+    <li><a class="waves-effect active" href="">Projects</a></li>
+	<li><a class="waves-effect" href="rsc/Resume.pdf" target="_blank">Resume</a></li>
+	<li><a class="waves-effect" href="credits.html">Credits</a></li>
+    </ul>
+
+  
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col m12 l10 offset-l1">
+          <h5>This is what I've been working on!</h5>
+
+
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">class</i><b>Project Algorithms</b> <small>SUMMER II '17</small></div>
+              <div class="collapsible-body">
+			  <p>
+			  <b>Project on Algorithms<br>
+			  Language: Java</b>
+			  </p>
+			  Coming Soon...<br>
+			  Working on the project for Summer II '17.
+			  
+			  <br><br>
+			  <label>Link(s):</label><br>
+			  
+			  </div>
+            </li>
+			<li>
+              <div class="collapsible-header"><i class="material-icons">class</i><b>Project KDD</b> <small>SUMMER I '17</small></div>
+              <div class="collapsible-body">
+			  <p>
+			  <b>Project on Knowledge Discovery in Databases<br>
+			  Language: R</b>
+			  </p>
+			  Coming Soon...<br>
+			  
+			  <br><br>
+			  <label>Link(s):</label><br>
+			  Dataset from<a href="https://www.kaggle.com/zhijinzhai/loandata/" target="_blank"> Kaggle</a><br>
+			   <a href="https://github.com/vaijyant/rep_KDD">GitHub</a>
+			  </div>
+            </li>
+            <li>
+              <div class="collapsible-header active"><i class="material-icons">label</i><b>Project DBS</b> <small>SPRING '17</small></div>
+              <div class="collapsible-body">
+			  <p>
+			  <b>Project on Database Systems<br>
+			  Language: Java</b>
+			  </p>
+			  This was a Project to show implementation of concepts I studied in Database class. This was an individual project.
+			  The project was implemented in Java and followed MVC architecture. The MVC architecture allowed keeping all the database
+			  related connection and processing in one file - DBManager.java.
+			  
+			  <br><br>
+			  <label>Links:</label><br>
+			  <a href="https://github.com/vaijyant/rep_DB" target="_blank">GitHub</a>
+			  </div>
+            </li>
+			<li>
+              <div class="collapsible-header "><i class="material-icons">label</i><b>Project SPL</b>  <small>SPRING '17</small></div>
+              <div class="collapsible-body">
+			  <p>
+			  <b>Project on Survey of Programming Languages<br>
+			  Language: Python</b>
+			  </p>
+			  This was a group project, and involved a team of 4. In this project we presented a GUI game - Wordament developed in Python.
+			  We used PyGame.py library to handle the events and provide a GUI interface for our game.
+			  <br><br>
+			  <label>Link(s):</label><br>
+			  <a href="https://github.com/dharak029/wordament/" target="_blank">GitHub</a>
+			  </p>
+			  </div>
+            </li>
+			<li>
+              <div class="collapsible-header "><i class="material-icons">label</i><b>Project SSDI</b>  <small>SPRING '17</small></div>
+              <div class="collapsible-body">
+			  <p>
+			  <b>Project on Software System Design and Implementation<br>
+			  Language: Python</b></p>
+			  This was a group project, and involved a team of 4. We created a student portal (called University Portal).
+			  It allowed a Faculty entity to post the assignments and grades. It also involves a student entity who
+			  can view the assignments, upload the assignment in electronic form and view his grades for a course. The
+			  Student also has the ability to view his overall grade in his academics.
+			  
+			  <br><br>
+			  <label>Link(s):</label><br>
+			  <a href="https://github.com/vaijyant/rep_SSDI" target="_blank">GitHub</a>
+			  </p>
+			  </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-action-btn">
+      <a id="menu" class="btn-floating btn-large waves-effect waves-light red" href="mailto:vtomar@uncc.com" target="_top" ><i class="material-icons ">email</i></a>
+        </div>
+  </main> 
+  <footer class="page-footer blue darken-2 ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col l6 s12 ">
+          <h5 class="white-text ">That's all Folks!</h5>
+        </div>
+        <div class="col l4 offset-l2 s12 ">
+          <h5 class="white-text ">Find me on</h5>
+
+          <ul class="social ">
+            <li>
+              <a class="grey-text text-lighten-3 " target="_blank" href="https://www.linkedin.com/in/vaijyant-tomar-76772890/ "><img src="img/linkedin-logo.png " title="LinkedIn " class="footer-icon "></a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3 " target="_blank" href="https://github.com/vaijyant "><img src="img/github-logo.png " title="GitHub " class="footer-icon "></a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3 " target="_blank" href="https://www.kaggle.com/vaijyant/"><img src="img/kaggle-logo.png " title="Kaggle " class="footer-icon "></a>
+            </li>
+			<li>
+              <a class="grey-text text-lighten-3 " target="_blank" href="http://thereverievt.blogspot.in/"><img src="img/blogger-logo.png " title="Blogger" class="footer-icon "></a>
+            </li>
+			<li>
+              <a class="grey-text text-lighten-3 " target="_blank" href="https://uncc-csm.symplicity.com/profiles/vaijyant.tomar"><img src="img/UNCC_Crown_Logo_1c.png" title="Hire A Niner" class="footer-icon "></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+	 
+    </div>
+    <div class="footer-copyright ">
+      <div class="container ">
+        <div class="row ">
+          <div class="col l4 m6 s6 center-align ">
+            2017
+          </div>
+          <div class="col l4 m6 s6 center-align ">
+            <a class="grey-text text-lighten-4 " href="./credits.html ">Credits</a>
+          </div>
+          <div class="col l4 m12 s12 center-align ">
+            <span class="grey-text text-lighten-4 ">Last Updated on June 22, 2017</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
