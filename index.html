@@ -1,5 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Vaijyant Tomar
+    </title>
+    <!-- Custom Import -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="resources/css/style_revamp.css">
+    <script src="resources/js/location.js"></script>
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
 <!--
 Oh so you are interested in the source code? Go ahead check it out!
      _   _                                       _       _____
@@ -12,387 +26,274 @@ Oh so you are interested in the source code? Go ahead check it out!
 					`\___/'`\___/'
 -->
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <!-- Modified by Vaijyant Tomar-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103560707-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+<body>
+<!-- TItle Card -->
+<header>
 
-        gtag('js', new Date());
-
-        gtag('config', 'UA-103560707-2');
-    </script>
-
-
-    <title>Vaijyant Tomar</title>
-    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
-
-    <!-- Bootstrap -->
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-    <!-- Icons -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="resources/css/styles.css">
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <!--[if lt IE 9]>
-    <script src="resources/js/html5shiv.js"></script> <![endif]-->
-
-    <style>
-        blockquote {
-            background: #f9f9f9;
-            border-left: 10px solid #ccc;
-            margin: 1.5em 10px;
-            padding: 0.5em 10px;
-            quotes: "\201C" "\201D" "\2018" "\2019";
-        }
-
-        blockquote:before {
-            color: #ccc;
-            content: open-quote;
-            font-size: 4em;
-            line-height: 0.1em;
-            margin-right: 0.25em;
-            vertical-align: -0.4em;
-        }
-
-        blockquote p {
-            display: inline;
-        }
-
-        #head {
-            background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70)), url(http://homdor.com/public/anonymous/competentpolitecolt?g=aHR0cHM6Ly90aHVtYnMuZ2Z5Y2F0LmNvbS9Db21wZXRlbnRQb2xpdGVDb2x0LXNpemVfcmVzdHJpY3RlZC5naWY=);
-            background-size: cover;
-
-        }
-    </style>
-
-
-</head>
-
-<body class="home">
-
-<header id="header">
-    <div id="head" class="parallax" parallax-speed="2">
-        <div class="bg"></div>
-        <h1 id="logo" class="text-center">
-            <img class="img-circle" src="resources/img/profile.jpg" alt="Vaijyant Tomar">
-            <span class="title">Vaijyant Tomar</span>
-            <span class="tagline">MS in Computer Science from UNC Charlotte.<br>
-				<a href="mailto:vtomar@uncc.com">vaijyant.tomar@gmail.com</a></span>
-        </h1>
-    </div>
-
-    <nav class="navbar navbar-default navbar-sticky">
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            </div>
-
-            <div class="navbar-collapse collapse">
-
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="timeline.html" target="_blank">Timeline</a></li>
-                    <li><a href="experiments.html">Experiments</a></li>
-                    <li><a href="resources/rsc/Resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
+    <div id="title-card-container">
+        <div id="video-container">
+            <video id="welcome-video" autoplay muted>
+                <source type="video/mp4" src="resources/img/Plexus.mp4"/>
+            </video>
         </div>
-    </nav>
+        <div id="welcome-message">
+            <p>
+                Hi, <br/>
+                I am Vaijyant!
+            </p>
+        </div>
+    </div>
 
 </header>
 
-<main id="main">
+<!-- Navbar -->
+<div id="navbar">
+    <a href="timeline.html" target="_blank">Timeline</a>
+    <a href="about.html">About</a>
+    <a href="experiments.html">Experiments</a>
+    <a href="resources/rsc/Resume.pdf" target="_blank">Resume</a>
+</div>
+<!-- Content -> Main -->
+<div class="content">
+    <main>
+        <!-- Courses -->
+        <h2 class="section-title"><span>Courses & Academic Projects</span></h2>
 
+        <div class="row" style="margin-left: 12%; margin-right: 12%;">
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/CHBM.jpg">
+                        <span class="card-title">Computational Human Behavior Model</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://webpages.uncc.edu/sshaikh2/">Instructor: Dr. Samira Shaikh</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/CHBM.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/PISP.jpg">
+                        <span class="card-title">Principles of Information Security & Privacy</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://webpages.uncc.edu/wwang22/">Instructor: Dr. Weichao Wang</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/PISP.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/ML.jpeg">
+                        <span class="card-title">Machine Learning</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://www.du-lab.org/">Instructor: Dr. Xiuxia Du</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/ML.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/MAD.png">
+                        <span class="card-title">Mobile Application Development</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://www.linkedin.com/in/sakibnm/">Instructor: Nazmus Sakib Miazi</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/MAD.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/IS.jpg">
+                        <span class="card-title">Intelligent Systems</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://webpages.uncc.edu/xiao/">Instructor: Dr. Jing Xiao</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/IS.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/Algos.jpg">
+                        <span class="card-title">Algorithm & Data Structures</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="#">Instructor: Dr. Shanzhen Gao</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/Algos.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/KDD.jpeg">
+                        <span class="card-title">Knowledge Discovery in Databases</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://www.linkedin.com/in/drpamelathompson">Instructor: Dr. Pamela Thompson</a>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/KDD.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/DbS.png">
+                        <span class="card-title">Database Systems</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="https://webpages.uncc.edu/jfan/">Instructor: Dr. Jianping Fan</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/DbS.html">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/SPL.jpg">
+                        <span class="card-title">Survey of Programming Languages</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="#">Instructor: Dr. Ali Sever</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/SPL.html">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/SSDI.png">
+                        <span class="card-title">Software System Design & Specification</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href="#">Instructor: Dr. Ali Sever</a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="courses/SSDI.html">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work Ex -->
+        <h2 class="section-title"><span>Work Experience</span></h2>
+
+        <div class="row" style="margin-left: 12%; margin-right: 12%;">
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/infosys.jpg">
+                        <span class="card-title">Infosys Limited</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href=""></a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="workex/infosys.html">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Previous Projects -->
+        <h2 class="section-title"><span>Previous Projects</span></h2>
+        <div class="row" style="margin-left: 12%; margin-right: 12%;">
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="resources/img/Project01.jpg">
+                        <span class="card-title">CopyToFlash</span>
+                    </div>
+                    <div class="card-content">
+                        <p><a href=""></a></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/vaijyant/CopyToFlash"
+                           target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+<!-- Footer -->
+<footer class="page-footer blue darken-3">
     <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
 
-        <h3>
-            Hi!</h3>
-        <h4>I am Vaijyant. Welcome to my portfolio.</h4>
-
-        <div class="row section topspace">
-            <div class="col-md-12">
-                <p class="lead text-center text-muted">
-                <blockquote> Oh the things you can find, if you don't stay behind!<br/>- Dr. Seuss</blockquote>
+                <p class="grey-text text-lighten-3">
+                    The University of North Carolina at Charlotte
+                </p>
+                <p class="grey-text text-lighten-3">
+                    Made with ❤️ in Charlotte, NC.
                 </p>
             </div>
-        </div>
-        <!-- / section -->
-
-
-        <div class="row section recentworks topspace">
-
-            <h2 class="section-title"><span>Courses & Academic Projects</span></h2>
-
-            <div class="thumbnails recentworks row">
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/CHBM.html">
-						<span class="img">
-							<img src="resources/img/CHBM.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Computational Human Behavior Modeling</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://webpages.uncc.edu/sshaikh2/" target="_blank">Dr. Samira Shaikh</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/PISP.html">
-						<span class="img">
-							<img src="resources/img/PISP.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Principles of Information Security & Privacy</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://webpages.uncc.edu/wwang22/" target="_blank">Dr. Weichao Wang</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/ML.html">
-						<span class="img">
-							<img src="resources/img/ML.jpeg"
-                                 alt="Photo by Kevin Ku from Pexels https://www.pexels.com/photo/coding-computer-data-depth-of-field-577585/">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Machine<br/>Learning</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://www.du-lab.org/"
-                                                         target="_blank">Dr. Xiuxia Du</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/MAD.html">
-						<span class="img">
-							<img src="resources/img/MAD.png" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Mobile Application Development</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://www.linkedin.com/in/sakibnm/" target="_blank">Nazmus Sakib Miazi</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/IS.html">
-						<span class="img">
-							<img src="resources/img/IS.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Intelligent Systems</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://webpages.uncc.edu/xiao/" target="_blank">Dr. Jing Xiao</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/Algos.html">
-						<span class="img">
-							<img src="resources/img/Algos.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Algorithms & Data Structures</span>
-                    </a>
-                    <span class="details">Instructor: <a href="" target="_blank">Dr. Shanzhen Gao</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/KDD.html">
-						<span class="img">
-							<img src="resources/img/KDD.jpeg"
-                                 alt="Photo by energepic.com from Pexels https://www.pexels.com/photo/blue-and-yellow-graph-on-stock-market-monitor-159888/">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Knowledge Discovery in Databases</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://www.linkedin.com/in/drpamelathompson"
-                                                         target="_blank">Dr. Pamela Thompson</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/DbS.html">
-						<span class="img">
-							<img src="resources/img/DbS.png" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Database Systems</span>
-                    </a>
-                    <span class="details">Instructor: <a href="https://webpages.uncc.edu/jfan/" target="_blank">Dr. Jianping Fan</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/SPL.html">
-						<span class="img">
-							<img src="resources/img/SPL.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Survey of Programming Languages</span>
-                    </a>
-                    <span class="details">Instructor: <a href="" target="_blank">Dr. Ali Sever</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="courses/SSDI.html">
-						<span class="img">
-							<img src="resources/img/SSDI.png" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Software System Design & Specification</span>
-                    </a>
-                    <span class="details">Instructor: <a href="" target="_blank">Dr. Ali Sever</a></span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Connect with me on</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/vaijyant"
+                           target="_blank">GitHub</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/vaijyant/"
+                           target="_blank">LinkedIn</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://thereverievt.blogspot.in/"
+                           target="_blank">Blogger</a>
+                    </li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/VaijyantTomar"
+                           target="_blank">Twitter</a>
+                    </li>
+                </ul>
             </div>
-
         </div>
-        <!-- /section -->
-        <div class="row section recentworks topspace">
-
-            <h2 class="section-title"><span>Work Experience</span></h2>
-
-            <div class="thumbnails recentworks row">
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="workex/infosys.html">
-						<span class="img">
-							<img src="resources/img/infosys.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Infosys Ltd.</span>
-                    </a>
-                    <span class="details">February 2015 - December 2016</span>
-                    <h4></h4>
-                    <p></p>
-                </div>
-            </div>
-
-        </div>
-        <!-- /section -->
-
-        <div class="row section recentworks topspace">
-
-            <h2 class="section-title"><span>Previous Projects</span></h2>
-
-            <div class="thumbnails recentworks row">
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <a class="thumbnail" href="#">
-						<span class="img">
-							<img src="resources/img/Project01.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-                        <span class="title">Copy To Flash</span>
-                    </a>
-                    <span class="details"><a href="https://github.com/vaijyant/CopyToFlash"
-                                             target="_blank">GitHub</a></span>
-                    <h4>A java utility</h4>
-                    <p>This utility copies a file to all the connected flash drives.</p>
-                </div>
-            </div>
-
-        </div>
-        <!-- /section -->
-
     </div>
-    <!-- /container -->
-
-</main>
-
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 widget">
-                <h3 class="widget-title">Contact</h3>
-                <div class="widget-body">
-                    <p>+1 (980) 938-9851<br>
-                        <a href="mailto:vaijyant.tomar@gmail.com">vaijyant.tomar@gmail.com</a><br>
-                        <br> The University of North Carolina at Charlotte
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-3 widget">
-                <h3 class="widget-title">Follow me</h3>
-                <div class="widget-body">
-                    <p class="follow-me-icons">
-                        <a href="https://github.com/vaijyant" target="_blank"><i style="padding-right: 5px;"
-                                                                                 class="fab fa-github-alt"></i></a>
-                        <a href="https://www.linkedin.com/in/vaijyant/" target="_blank"><i style="padding-right: 5px;"
-                                                                                           class="fab fa-linkedin-in"></i></a>
-                        <a href="https://thereverievt.blogspot.in/" target="_blank"><i style="padding-right: 5px;"
-                                                                                       class="fab fa-blogger-b"></i></a>
-                        <a href="https://twitter.com/VaijyantTomar" target="_blank"><i style="padding-right: 5px;"
-                                                                                       class="fab fa-twitter"></i></a>
-                    </p>
-                </div>
-            </div>
-
+    <div class="footer-copyright blue darken-4">
+        <div class="container center">
+            © 2018 Vaijyant Tomar
         </div>
-        <!-- /row of widgets -->
     </div>
 </footer>
-
-<footer id="underfooter">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-6 widget">
-                <div class="widget-body">
-                    <p>Charlotte, North Carolina</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 widget">
-                <div class="widget-body">
-                    <p class="text-right">
-                        Copyright &copy; 2018, Vaijyant Tomar </p>
-                </div>
-            </div>
-
-        </div>
-        <!-- /row of widgets -->
-    </div>
-</footer>
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="resources/js/template.js"></script>
 </body>
-
+<!-- Loading Scripts after the DOM has been loaded -->
+<script src="resources/js/stickyNav.js"></script>
 </html>
