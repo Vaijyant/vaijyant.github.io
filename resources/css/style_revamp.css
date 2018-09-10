@@ -52,6 +52,7 @@ body {
     width: 24px;
     height: 24px;
     bottom: 10%;
+    transform: translate(-50%, 0%);
 }
 
 .chevron {
