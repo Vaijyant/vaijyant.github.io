@@ -17,6 +17,9 @@
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 </head>
 
 <!--
@@ -43,15 +46,14 @@ Oh so you are interested in the source code? Go ahead check it out!
             </video>
         </div>
         <div id="welcome-message">
-            <p id="welcome-message-text"></p>
+            <span id="welcome-message-text"></span>
         </div>
-        <div class="scroll-down">
-            <div class="chevron"></div>
-            <div class="chevron"></div>
-            <div class="chevron"></div>
+        <div class="scroll-down" onclick="scrollToMain()">
+            <span class="chevron"></span>
+            <span class="chevron"></span>
+            <span class="chevron"></span>
         </div>
     </div>
-
 </header>
 
 <!-- Navbar -->
@@ -62,7 +64,7 @@ Oh so you are interested in the source code? Go ahead check it out!
     <a href="resources/rsc/Resume.pdf" target="_blank">Resume</a>
 </div>
 <!-- Content -> Main -->
-<div class="content">
+<div id="main" class="content">
     <main>
         <!-- Courses -->
         <h2 class="section-title"><span>Courses & Academic Projects</span></h2>
@@ -265,7 +267,7 @@ Oh so you are interested in the source code? Go ahead check it out!
     </main>
 </div>
 <!-- Footer -->
-<footer class="page-footer blue darken-3">
+<footer class="page-footer grey darken-4">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
@@ -294,7 +296,7 @@ Oh so you are interested in the source code? Go ahead check it out!
             </div>
         </div>
     </div>
-    <div class="footer-copyright blue darken-4">
+    <div class="footer-copyright black">
         <div class="container center">
             © 2018 Vaijyant Tomar
         </div>
