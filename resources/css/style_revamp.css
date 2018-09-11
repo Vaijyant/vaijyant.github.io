@@ -50,8 +50,8 @@ body {
     position: absolute;
     left: 50%;
     width: 10%;
-    height: 10%;
-    bottom: 10%;
+    height: 24px;
+    bottom: 24px;
     transform: translate(-50%, 0%);
 }
 
