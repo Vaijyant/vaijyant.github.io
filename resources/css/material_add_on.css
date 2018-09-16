@@ -1,0 +1,13 @@
+.card-image {
+    background: lightslategrey;
+}
+
+.card-image > span {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card-image:hover > img {
+    -webkit-filter: blur(10px) opacity(50%);
+    filter: blur(10px) brightness(50%);
+
+}
